@@ -2,7 +2,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: rgb(7, 90, 132);
+    background-color: rgb(11, 193, 23);
 }
 .titles {
     background-color: rgb(29, 233, 90);
@@ -120,6 +120,16 @@ img{
     transition-duration: 100ms;
     transition-timing-function: ease-in;
     transition-delay: 50ms;
+
+
+}
+
+.container{
+    display: flex;
+}
+
+.titulos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 }
