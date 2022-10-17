@@ -1,8 +1,40 @@
-html{
-    font-size: 62.5%;
+/*Clases generales*/
+a{
+    background-color: rgb(87, 185, 11);
+    color: rgba(0, 0, 0, 0.799);
+    border: 1px none black;
+    padding: 2px ;
+
+    transition-property: all;
+    transition-duration: 50ms;
+    transition-timing-function: ease;
+    transition-delay: 30ms;
 }
+
+a:hover{
+    color: green;
+    padding: 4px 7px;
+    border: 1px none rgb(5, 148, 60);
+
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+}
+
 body{
     background-color: rgb(11, 193, 23);
+}
+img{
+    
+    width: 120px;
+    height: 80px;
+}
+
+/*Header*/
+.navi{
+    box-sizing: content-box;
+
 }
 .titles {
     background-color: rgb(29, 233, 90);
@@ -11,6 +43,7 @@ body{
     border-style: groove;
     border-width: 5px;
     border-color: rgb(13, 89, 13);
+    font-size: 500%;
 }
 
 
@@ -21,56 +54,31 @@ body{
     border-style: dotted ;
     border-width: 5px;
     border-color: rgb(25, 165, 25);
-    
+    font-size: 120%;
+       
 }
 
 .upmain{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*FOTOS*/
+
 .picbox{
     display: grid;
     grid-template:  15rem 15rem 15rem / 20rem 20rem 20rem  ;
+    align-content: center;
     
 }
 
 .pics{
-    display: grid;
     border: 1px solid black;
-    align-self: auto;
-     
+    align-content: flex-end;
+   
 }
 
-a{
-    background-color: blueviolet;
-    color: blue;
-    border: 1px solid black;
-    padding: 2px ;
-
-    transition-property: all;
-    transition-duration: 50ms;
-    transition-timing-function: ease;
-    transition-delay: 30ms;
-}
-
-a:hover{
-    background-color: red;
-    color: green;
-    padding: 4px 7px;
-    border: 1px solid violet;
-
-    transition-property: all;
-    transition-duration: 100ms;
-    transition-timing-function: ease-in;
-    transition-delay: 50ms;
-}
-
-footer{
-    background-color: rgb(36, 100, 21);
-    display : flex;
-    justify-content: space-between;
+.texts{
     align-items: center;
-      
 }
 
 .socialmedia{
@@ -91,11 +99,7 @@ footer{
 }
 
 
-img{
-    border-radius: 50%;
-    width: 30px;
-    height:50px;
-}
+
 
 
 #prueba{
@@ -111,10 +115,10 @@ img{
 }
 
 #prueba:hover{
-    background-color: rgb(149, 55, 231);
+    background-color: rgb(55, 231, 87);
     color: rgb(204, 245, 170);
     padding: 4px 7px;
-    border: 1px solid violet;
+    border: 1px solid rgb(5, 142, 74);
 
     transition-property: all;
     transition-duration: 100ms;
@@ -126,10 +130,17 @@ img{
 
 .container{
     display: flex;
+    align-items: center;
 }
 
-.titulos{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
+.footcont{
+    background-color: rgb(36, 100, 21);
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    min-width: 60%;
+    max-width: 100%;
+     
 }
