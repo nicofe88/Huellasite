@@ -1,29 +1,19 @@
 /*Clases generales*/
 a{
-    background-color: rgb(87, 185, 11);
-    color: rgba(0, 0, 0, 0.799);
-    border: 1px none black;
     padding: 2px ;
-
+    text-decoration:none;
     transition-property: all;
     transition-duration: 50ms;
     transition-timing-function: ease;
     transition-delay: 30ms;
+    color: white;
 }
 
-a:hover{
-    color: green;
-    padding: 4px 7px;
-    border: 1px none rgb(5, 148, 60);
-
-    transition-property: all;
-    transition-duration: 100ms;
-    transition-timing-function: ease-in;
-    transition-delay: 50ms;
-}
 
 body{
-    background-color: rgb(11, 193, 23);
+    background-color: #070f4e;
+    color: #f5ebeb;
+    min-height: calc(100vh + 200px);
 }
 img{
     
@@ -37,29 +27,40 @@ img{
 
 }
 .titles {
-    background-color: rgb(29, 233, 90);
     text-align: center;
     margin: 0px;
-    border-style: groove;
-    border-width: 5px;
-    border-color: rgb(13, 89, 13);
     font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 15px black;
+    
 }
 
 
 .firstbox {
-    background-color: green;
     text-align: center;
     margin: 0px;
-    border-style: dotted ;
-    border-width: 5px;
-    border-color: rgb(25, 165, 25);
     font-size: 120%;
+    background-color: #2772db;
+    padding: 10px;
        
 }
 
 .upmain{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Arial','Constantia','Franklin Gothic Medium',sans-serif;
+    
+}
+
+.upmain a{
+    margin: 0px 20px;
+}
+
+.upmain a:hover{
+    text-shadow: 0px 0px 2px black;
+    transition-property: all;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
+    transition-delay: 50ms;
+    background-color: #070f4e;
 }
 
 /*FOTOS*/
@@ -77,8 +78,13 @@ img{
     border: 1px solid black;
     justify-content: center;
     align-items: baseline;
-    
-   
+    background-color: #f5ebeb;
+    color: #070f4e;
+    box-shadow: 0px 5px 25px #2772db;
+}
+
+.pics a{
+    color: #3ab1c8;
 }
 
 .texts{
@@ -107,8 +113,8 @@ img{
 
 
 #prueba{
-    background-color: rgb(126, 188, 50);
-    color: rgb(161, 20, 119);
+    background-color: #070f4e;
+    color: #f5ebeb;
     padding: 4px 7px;
     border: 1px solid violet;
 
@@ -119,7 +125,7 @@ img{
 }
 
 #prueba:hover{
-    background-color: rgb(55, 231, 87);
+    background-color: #3ab1c8;
     color: rgb(204, 245, 170);
     padding: 4px 7px;
     border: 1px solid rgb(5, 142, 74);
@@ -138,7 +144,6 @@ img{
 }
 
 .footcont{
-    background-color: rgb(36, 100, 21);
     display : flex;
     justify-content: space-between;
     align-items: center;
@@ -146,5 +151,7 @@ img{
     width: 100%;
     min-width: 60%;
     max-width: 100%;
-     
+    position: fixed;
+    background-color: #2772db;
+    height: 150px;
 }
