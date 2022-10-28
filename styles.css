@@ -17,6 +17,7 @@ body{
     margin-bottom: 100px;
     clear: both;
     
+
 }
 img{
     
@@ -122,19 +123,12 @@ img{
 
 
 
+
 #like{
     background-color: #070f4e;
-    color: #ffffff;
-    padding: 4px 7px;
-    border: 1px solid rgb(58, 146, 214);
+    color: #ffffff;}
 
-    transition-property: all;
-    transition-duration: 30ms;
-    transition-timing-function: ease-out;
-    transition-delay: 20ms;
-}
-
-#like:hover{
+#like :hover{
     background-color: #3ab1c8;
     color: rgb(204, 245, 170);
     padding: 4px 7px;
@@ -194,6 +188,9 @@ img{
     justify-content: space-around;
     padding: auto;
   }
+
+
+
 
 /*Gama colores
 #2772db
