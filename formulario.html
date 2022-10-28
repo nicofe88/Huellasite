@@ -24,8 +24,7 @@
             </nav>
             </div>
         </div>
-        
-        </header>
+    </header>
     <main>
         <section>
             <div class="test">
@@ -35,20 +34,20 @@
             <div class="test">
         <div class="test">
            <p>Por favor te pedimos que completes este formulario para que alguien de nuestro equipo de "Huella" se ponga en contacto con vos. </p> 
+        </div>
+        <div class="test">
            <p>Recorda que es necesario que completes todos los campos.</p>
         </div> 
              </div>
-        <br>
-
         </section>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
+                        <form name="myform" id="myform" class="form-horizontal"  method="post">
                             <fieldset>
                                 <legend class="text-center header">Completar</legend>
-
+        
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                     <div class="col-md-8">
@@ -100,13 +99,13 @@
                                 <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                                     <div class="col-md-8">
-                                        <textarea class="form-control" id="message" name="message" placeholder="Si su opción fue Otro, especificar por favor." rows="3"></textarea>
+                                        <textarea class="form-control" id="message" name="message" placeholder="Si su opción fue Otra mascota, especificar cual." rows="3"></textarea>
                                     </div>
                                 </div>
                                 <br>
                                 <div class="form-group">
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                        <button type="submit"onclick="return validarForm()" class="btn btn-primary btn-lg">Enviar</button>
                                     </div>
                                 </div>
                             </fieldset>
@@ -115,8 +114,6 @@
                 </div>
             </div>
         </div>
-        <br>
-        <br>
     </main>
             <script src="script.js"></script>
       
