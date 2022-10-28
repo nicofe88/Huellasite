@@ -14,10 +14,9 @@ body{
     background-color: #070f4e;
     color: #f5ebeb;
     min-height: fit-content;
-    margin-bottom: 100px;
+    margin-bottom: 13rem;
     clear: both;
     
-
 }
 img{
     
@@ -128,7 +127,7 @@ img{
     background-color: #070f4e;
     color: #ffffff;}
 
-#like :hover{
+#like:hover{
     background-color: #3ab1c8;
     color: rgb(204, 245, 170);
     padding: 4px 7px;
